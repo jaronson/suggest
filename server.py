@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# Comments are for Communists
 # The basics on the server for clients:
 # Request with a normal HTTP header. GET, POST, PUT, DELETE -- it doesn't matter
 # The requested resource must be /suggest and the get value prefix= must be set
