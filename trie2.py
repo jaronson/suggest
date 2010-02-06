@@ -75,9 +75,3 @@ class Trie(object):
 				self.build_words(word, child)
 			else:
 				self.suggestions.append(word)
-
-if __name__=='__main__':
-	t = Trie()
-	#t.add_from_list(['big','bill','bindle','bigger','biggest'])
-	t.add_from_file('dict/wordlist.txt', True)
-	print t.search('bi')

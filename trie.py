@@ -69,8 +69,3 @@ class Trie(object):
 					return
 				else:
 					self.suggestions.append(word)
-
-if __name__=='__main__':
-	t = Trie()
-	t.add_from_file('dict/wordlist.txt')
-	print t.suggest('ru', 2)
