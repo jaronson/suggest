@@ -1,1 +1,5 @@
-Suggest - for serving autocomplete prefix suggestions
+Suggest
+-------
+trie.py 	- a dictionary-based trie
+trie2.py	- a class-based trie (much higher memory overhead)
+server.py - a simple socket server for autocomplete prefix suggestions
