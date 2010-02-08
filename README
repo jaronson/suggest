@@ -1,5 +1,6 @@
 Suggest
 -------
-trie.py 	- a dictionary-based trie
-trie2.py	- a class-based trie (much higher memory overhead)
-server.py - a simple socket server for autocomplete prefix suggestions
+trie.py 		- a dictionary-based trie
+trie2.py		- a class-based trie (much higher memory overhead)
+server.py 	- a simple socket server for autocomplete prefix suggestions
+console.py 	- a console interface for testing purposes
